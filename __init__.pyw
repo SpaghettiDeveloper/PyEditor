@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# il modulo "main" di avvio.
-
 from mod.pyeditor import * # Importo il programma all'interno del modulo "pyeditor", e specifico il package "lib" relativo alla directory contenente il programma.
 import sys
 import compileall # La libreria "compileall" compila tutti i moduli presenti nella directory "lib" in Bytecode.
